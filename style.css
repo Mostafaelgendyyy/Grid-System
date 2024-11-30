@@ -1,0 +1,653 @@
+/***************MASTER Start***************/
+.body {
+    font-family: Arvo, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.grey-text {
+    color: gray;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+a {
+    color: #27b9c2;
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+/***************MASTER END***************/
+
+/***************IPHONE SECTION Start***************/
+.iphone {
+    display: flex;
+    grid-area: iphone-area;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+
+h3 {
+
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+.wordcaps {
+
+    font-family: Montserrat, sans-serif;
+    color: #9fa3a7;
+    line-height: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    
+}
+.words {
+    margin-left: 10%;
+    margin-top: 9%;
+    height: auto;
+    padding-top: 1.5%;
+}
+.iphoneimage {
+    margin-top: 40%;
+    padding-right: 5rem;
+    max-width: 250px;
+    height: auto;
+    align-self: flex-end;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/***************IPHONE SECTION END***************/
+
+/***************learnmore SECTION Starts***************/
+
+.learnmore{
+    grid-area: learnmore-area;
+    background-color: #f7f8f9;
+    text-align: center;
+}
+
+.heading-learnmore {
+    
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.center {
+    margin-top: 50px;
+}
+/***************learnmore SECTION END***************/
+
+/***************brand-tv SECTION start***************/
+
+.brand-tv{
+    grid-area: brand-tv-area;
+    background-color: #f05638;
+    color: #fffbfb;
+    text-align: center;
+}
+
+
+
+.brand-tv > a {
+    color: #ffc80a;
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.brand-tv > img {
+    margin-top: 70px;
+    width: 320px;
+}
+
+
+/***************brand-tv SECTION END***************/
+
+/***************experimenting SECTION END***************/
+.experimenting{
+    grid-area: experimenting-area;
+    display: flex;
+}
+
+.retina{
+    display: flex;
+    flex-direction: column;
+}
+.column-retina
+{
+    flex: 2;
+}
+.retina > img {
+    width: 450px;
+    margin-left: -150px;
+
+}
+
+.column-retina {
+    margin: 55px;
+}
+.column-retina > div {
+    text-align: center;
+}
+
+.retina > h3 {
+    padding-top: 40px;
+    margin: auto;
+    display: block;
+    max-width: 160px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.downloadexperimenting {
+    color: #9fa3a7;
+}
+
+.downloadexperimenting > div {
+    margin-top: 60px;
+    font-weight: 100;
+    line-height: 1.8;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.link-with-arrow{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #27b9c2;
+}
+
+
+/***************experimenting SECTION END***************/
+
+/***************learnmore-icloud SECTION Start***************/
+.learnmore-icloud{
+    grid-area: learnmore-icloud-area;
+    background-color: #8f76bc;
+    color: #fff;
+    text-align: center;
+}
+
+.learnmore-icloud > h2 {
+    font-size: 2.3rem;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    background-color: #8166b0;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+}
+.circle > img {
+    width: 230px;
+    margin-top: 20px;
+}
+
+.text-popular {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 2px;
+    vertical-align: baseline;
+    background-image: url(images/5bc2f42d5a5ed9663e707e7d_Shape.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-color: hsla(0, 0%, 100%, .08);
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 105px;
+}
+.white{
+    color: white;
+}
+
+.p-icloud {
+    text-align: center;
+    width: 300px;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.learnmore-btn {
+    border-radius: 50px;
+    background-color: #ffc80a;
+    padding: 14px 20px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/***************learnmore-icloud SECTION END***************/
+
+/***************gamesourpasion SECTION Start***************/
+.gamesourpasion{
+    grid-area: gamesourpasion-area;
+    background-color: white;
+    text-align: center;
+}
+
+.gamesourpasion > img {
+    margin-right: 25px;
+    margin-top: 70px;
+    width: 248px;
+}
+
+/***************gamesourpasion SECTION END***************/
+
+/***************experience SECTION Start***************/
+.experience{
+    grid-area: experience-area;
+    background-image: url(images/5bc2f42d5a5ed97dab707e7e_UX.png);
+    position: relative;
+    justify-content: space-between;
+    background-color: #93b6b7;
+    background-position: 50% 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  
+
+.experience > img {
+    position: relative;
+    left: -7%;
+    width: 90%;
+}
+
+.experience-column > h3 {
+    display: block;
+    max-width: 280px;
+    margin: auto;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    font-weight: bold;
+}
+
+.smallwordcaps {
+    float: left;
+    border-radius: 5px;
+    background-color: #fa684f;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 20px;
+    font-size: 0.7rem;
+
+}
+/***************experience SECTION Ends***************/
+
+/***************twitter SECTION Starts***************/
+.twitter{
+    grid-area: twitter-area;
+    text-align: center;
+    background-color: #38d5f4;
+    color: #fff;
+}
+
+.twitter-container {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    background-color: #35cfed;
+    text-align: center;
+}
+
+.twitter-container > img {
+    width: 44px;
+    margin-top: 100px;
+}
+
+
+/***************twitter SECTION Ends***************/
+
+/***************betterexperience SECTION Starts***************/
+.betterexperience{
+    grid-area: betterexperience-area;
+    background-color: #f7f8f9;
+    text-align: center;
+}
+
+.betterexperience > div {
+    margin-left: 40%;
+    margin-top: 100px;
+    position: static;
+    color: white;
+    background-color: #7bc424;
+}
+
+.betterexperience > h3 {
+    text-align: center;
+    margin-top: 130px;
+    width: 70%;
+    margin-left:15%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/***************betterexperience SECTION Ends***************/
+
+/***************display SECTION Starts***************/
+
+.display {
+    background-color: #2c2c2c;
+    color: #fff;
+    grid-area: display-area;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.display > h3 {
+    margin-left: 100px;
+    font-size: 1.6rem;
+    flex:2;
+    width: 70%; 
+    text-align: center;
+}
+
+.display > img {
+    width: 270px;
+    flex:1;
+}
+/***************display SECTION Ends***************/
+
+
+.container {  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,0.5fr);
+    /* grid-template-columns: 1fr 1fr 1fr 25%;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr; */
+    /* gap: 0px 0px; */
+    /* grid-auto-flow: row; */
+    grid-template-areas:
+      "iphone-area iphone-area learnmore-area learnmore-area"
+      "iphone-area iphone-area learnmore-area learnmore-area"
+      "brand-tv-area experimenting-area experimenting-area learnmore-icloud-area"
+      "brand-tv-area experimenting-area experimenting-area learnmore-icloud-area"
+      "gamesourpasion-area experience-area experience-area learnmore-icloud-area"
+      "gamesourpasion-area experience-area experience-area learnmore-icloud-area"
+      "twitter-area betterexperience-area display-area display-area";
+    /* background-color: red; */
+
+  }
+
+/***************media Queries SECTION Ends***************/
+@media (max-width: 991px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(15, auto);
+        grid-template-areas:
+            "learnmore-area learnmore-area"
+            "learnmore-area learnmore-area"
+            "iphone-area iphone-area"
+            "iphone-area iphone-area"
+            "brand-tv-area gamesourpasion-area"
+            "brand-tv-area gamesourpasion-area"
+            "experimenting-area experimenting-area"
+            "experimenting-area experimenting-area"
+            "twitter-area learnmore-icloud-area"
+            "twitter-area learnmore-icloud-area"
+            "experience-area learnmore-icloud-area"
+            "experience-area learnmore-icloud-area"
+            "betterexperience-area betterexperience-area"
+            "display-area display-area"
+            "display-area display-area";
+    }
+
+    
+
+    h3 {
+
+        font-family: Arvo, sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+      }
+
+    .p-icloud {
+        text-align: center;
+        width: 300px;
+        line-height: 1.8;
+        font-size: 1rem;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    .experience-column > h3 {
+        display: block;
+        max-width: 280px;
+        margin: auto;
+        padding-top: 60px;
+        font-weight: bold;
+    }
+    
+    .wordcaps {
+        font-size: 0.65rem; /* Smaller font size */
+    }
+
+    .heading-learnmore {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+
+    .learnmore-btn {
+        font-size: 0.75rem; /* Button text size adjustment */
+        border-radius: 50px;
+        background-color: #ffc80a;
+        padding: 14px 20px;
+        color: black;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-weight: 600;
+        
+
+    }
+    .btn{
+        margin-bottom: 100px;
+    }
+    
+
+    .circle {
+        border-radius: 50%;
+        width: 340px;
+        height: 340px;
+        background-color: #8166b0;
+        margin: auto;
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .circle > img {
+        width: 230px;
+        margin-top: 20px;
+    }
+
+    .iphoneimage {
+        max-width: 200px; /* Adjust image size for smaller screens */
+    }
+
+    .experience > img {
+        width: 100%; /* Make image responsive */
+        left: 0; /* Reset left positioning */
+    }
+
+    .display > img {
+        width: 200px; /* Adjust display image size */
+    }
+
+
+}
+
+
+/*********** MOBILE ************/
+@media (max-width: 500px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "learnmore-area"
+            "iphone-area"
+            "brand-tv-area"
+            "gamesourpasion-area"
+            "experimenting-area"
+            "twitter-area"
+            "experience-area"
+            "learnmore-icloud-area"
+            "betterexperience-area"
+            "display-area";
+    }
+
+    .iphone {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    .iphoneimage{
+        margin-top: -60px!important;
+    }
+    .experimenting {
+        flex-direction: column;   
+    }
+    .experience > img{
+        display: none;
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+
+    .wordcaps {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .words {
+        margin-left: 10px;
+    }
+
+    .words > h3 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .grey-text {
+        font-size: 1.36rem;
+    }
+
+    .brand-tv > h3,
+    .gamesourpasion > h3 {
+        font-size: 1.8rem;
+    }
+
+    .brand-tv > a {
+        font-size: 1.6rem;
+    }
+
+    .gamesourpasion {
+        padding-bottom: 30px;
+    }
+
+    .column-retina > h3 {
+        font-size: 1.47rem;
+        line-height: 1.5;
+    }
+
+    .downloadexperimenting {
+        padding-bottom: 30px;
+    }
+
+    .downloadexperimenting > div,
+    .downloadexperimenting > a {
+        margin-left: 20px;
+    }
+
+    .downloadexperimenting > a {
+        font-size: 1.4rem;
+    }
+
+    .twitter-container {
+        margin-top: 10px;
+    }
+
+    .smallwordcaps {
+        font-size: 1rem;
+    }
+
+    .experience-column > h3 {
+        margin-top: 40px;
+        margin-left: 35px;
+        font-size: 26px;
+    }
+
+    .learnmore-icloud {
+        padding-bottom: 50px;
+    }
+
+    .text-popular {
+        font-size: 1.1rem;
+    }
+
+    .p-icloud {
+        font-size: 1.5rem;
+    }
+
+    .betterexperience > div {
+        margin-left: 120px;
+    }
+
+    .display > img {
+        width: 150px;
+    }
+
+    .display > h3 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-left: 35px;
+    }
+}
